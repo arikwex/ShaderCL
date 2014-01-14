@@ -142,9 +142,9 @@ GPU: NVIDIA GEFORCE GTX 660M 2GB RAM
 
 Notice that for small kernel operations, the runtime is directly
 proportional to the image size.  A quick and dirty estimate from
-this data suggests that a kernel using 1000 pixel reads per pixel
-output requires ~20ms.  This is a pretty huge number of pixel
-reads so I ain't even mad.
+this data suggests that an image of size 512x512 using a kernel
+that performs 1000 pixel reads per pixel requires ~20ms to run.
+This is a pretty huge number of pixel reads so I ain't even mad.
 
 [2] SETUP \ INSTALLATION
 ========================
